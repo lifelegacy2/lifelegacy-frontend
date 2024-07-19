@@ -1,5 +1,10 @@
+import Header from '@/components/layouts/Header';
 import Layout from '@/components/layouts/Layout';
 
 export default function Home() {
-  return <Layout>라이프레거시</Layout>;
+  return (
+    <Layout>
+      <Header title="자기소개" />
+    </Layout>
+  );
 }
