@@ -18,13 +18,6 @@ export default function Home() {
           자녀유무 등을 포함한 간단한 자기소개를 부탁드려요
         </ChatBox>
         <ChipButton style={{ marginTop: rem(16) }}>다시 들려줘</ChipButton>
-
-        <BotIcon width={36} height={36} />
-        <ChatBox style={{ marginTop: rem(8) }}>
-          안녕하세요 AI 작가, 새싹입니다! 이름, 나이, 성별, 직업, 결혼유무,
-          자녀유무 등을 포함한 간단한 자기소개를 부탁드려요
-        </ChatBox>
-        <ChipButton style={{ marginTop: rem(16) }}>다시 들려줘</ChipButton>
       </div>
     </Layout>
   );
