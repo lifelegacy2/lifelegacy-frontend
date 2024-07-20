@@ -1,6 +1,6 @@
 import { createGlobalTheme } from '@vanilla-extract/css';
 
-import { rem } from './pxto';
+import { rem } from '@/utils/pxto';
 
 export const spaces = {
   none: '0',

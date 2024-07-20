@@ -1,17 +1,20 @@
 import { style } from '@vanilla-extract/css';
 
-import { rem } from '@/styles/pxto';
 import { theme } from '@/styles/theme.css';
+import { rem } from '@/utils/pxto';
 
 export const root = style({
   ...theme.layouts.rowBetween,
-  alignItems: 'center',
   position: 'sticky',
-  height: rem(52),
-  backgroundColor: '#white',
+  top: 0,
+  left: 0,
+  right: 0,
+  alignItems: 'center',
+  backgroundColor: theme.colors.white,
 });
 
 export const title = style({
+  paddingBlock: rem(11),
   color: '#111111',
   fontSize: rem(22),
   fontWeight: 600,

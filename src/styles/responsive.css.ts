@@ -1,6 +1,6 @@
 import { StyleRule } from '@vanilla-extract/css';
 
-import { rem } from '@/styles/pxto';
+import { rem } from '@/utils/pxto';
 
 type BP = 'mobile' | 'tablet' | 'desktop';
 
