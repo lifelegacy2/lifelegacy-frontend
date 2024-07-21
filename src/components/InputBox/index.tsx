@@ -16,14 +16,12 @@ const InputBox: React.FC<InputBoxProps> = ({
   showSelect,
   ...props
 }) => {
-  console.log('InputBox props:', { placeholder, showSelect });
   return (
     <div className={styles.wrapper}>
       <button
         className={`${styles.buttonWrapper} ${styles.buttonLeft}`}
         onClick={() => {
           onToggleSelect();
-          console.log('Toggle button clicked');
         }}
       >
         <FaPlus className={styles.iconLeft} />

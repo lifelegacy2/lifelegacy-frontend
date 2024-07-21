@@ -10,8 +10,6 @@ interface SelectBoxProps {
 }
 
 const SelectBox: React.FC<SelectBoxProps> = ({ show }) => {
-  console.log('SelectBox props:', { show });
-
   return (
     <div className={`${styles.container} ${show ? styles.visible : ''}`}>
       <div className={styles.option}>
