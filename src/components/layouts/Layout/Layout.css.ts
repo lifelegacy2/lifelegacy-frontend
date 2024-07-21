@@ -11,6 +11,8 @@ export const container = style({
   paddingInline: theme.sizes.appInlinePadding,
   marginInline: 'auto',
   backgroundColor: theme.colors.white,
+  overflowX: 'hidden',
+  position: 'relative',
 
   selectors: {
     '&::before': {
